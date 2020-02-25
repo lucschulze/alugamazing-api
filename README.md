@@ -10,6 +10,23 @@ O alugamazing-api permite manter e administrar uma locadora generica. Ela permit
   - Esse projeto foi feito utilizando o Postgres;
 - Selecionar a class *AlugamazingApplication* e executa-la como *Java Applcation*;
 
+### Exemplo de request :
+##### Metodo: *GET*
+##### Recurso: http://localhost:8086/users
+##### Resposta:
+```[{
+        "id": 1,
+        "name": "Lucas ALves Schulze",
+        "email": "contao@lschulze.com",
+        "profile": "CLIENT"
+    },
+    {
+        "id": 2,
+        "name": "Davi Schulze",
+        "email": "davi@gmail.com",
+        "profile": "CLIENT"
+    }]
+```
 ### Observações :
 
 ##### Esse projeto usa [Lombok](https://projectlombok.org/) para gerar automaticamente código repetitivos como gets e sets;
