@@ -8,6 +8,7 @@ O alugamazing-api permite manter e administrar uma locadora generica. Ela permit
 - Importar como um maven project;
 - Setar as informações do banco de dados no *application.properties:
   - Esse projeto foi feito utilizando o Postgres;
+  - Para popular o banco com exemplos de dados basta executar o classe de teste *AlugamazingApplicationTests* com **Junit Test**;
 - Selecionar a class *AlugamazingApplication* e executa-la como *Java Applcation*;
 
 ### Exemplo de request :
